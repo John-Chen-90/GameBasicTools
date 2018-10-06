@@ -1,8 +1,8 @@
 # GameBasicTools
 The project is a static library, that encapsulation unity 3d basic development tools. 
 
-# 中文:这个项目是一个静态库，封装了一些开发时常用的工具、或者基础构件。<br>
-## 包含了：<br>
+## 中文:这个项目是一个静态库，封装了一些开发时常用的工具、或者基础构件。<br>
+### 包含了：<br>
     * 资源工具：   资源(AssetBundle)加载、打包编辑器、和资源相关管理的策略。<br>
     * UI工具：     UI的管理、MVC模式的嵌入。<br>
     * 网络工具：   protobuf的封装、收发协议等。<br>
