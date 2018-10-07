@@ -8,6 +8,7 @@
 using System;
 using System.Net;
 using System.Net.Sockets;
+using System.Threading;
 
 namespace NetworkTool
 {
@@ -47,7 +48,33 @@ namespace NetworkTool
         {
             IPAddress ipAds = IPAddress.Parse(ip);
             IPEndPoint ipEpt = new IPEndPoint(ipAds, port);
-            _clientSocket.BeginConnect(ipEpt, OnBeginConnect, _clientSocket); 
+            //_clientSocket.BeginConnect(ipEpt, OnBeginConnect, _clientSocket); 
+            _clientSocket.Connect(ipEpt);
+
+            _clientThread = new Thread(ReciveMsg);
+            _clientThread.IsBackground = true;
+            _clientThread.Start();
+        }
+
+
+        private void ReciveMsg()
+        {
+            while (true)
+            {
+                try
+                {
+                    int len = _clientSocket.Receive(_msgBuffer);
+                    if (len > 0)
+                    {
+                        int i = 1;
+                        i += 1;
+                    }
+                }
+                catch (SocketException e)
+                {
+
+                }
+            }
         }
 
         /// <summary>
@@ -155,5 +182,6 @@ namespace NetworkTool
         private string _ip;
         private byte[] _msgBuffer;
         private Socket _clientSocket;
+        private Thread _clientThread;
     }
 }

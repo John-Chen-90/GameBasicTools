@@ -4,3 +4,9 @@ D:\CodeSpace\CSharpSpace\GameBasicTool\bin\Network\NetworkTool.pdb
 D:\CodeSpace\CSharpSpace\GameBasicTool\NetworkTool\obj\Debug\NetworkTool.dll
 D:\CodeSpace\CSharpSpace\GameBasicTool\NetworkTool\obj\Debug\NetworkTool.pdb
 D:\CodeSpace\CSharpSpace\GameBasicTool\NetworkTool\obj\Debug\NetworkTool.csprojResolveAssemblyReference.cache
+D:\CodeSpace\GitSpace\GameBasicTools\bin\Network\NetworkTool.XML
+D:\CodeSpace\GitSpace\GameBasicTools\bin\Network\NetworkTool.dll
+D:\CodeSpace\GitSpace\GameBasicTools\bin\Network\NetworkTool.pdb
+D:\CodeSpace\GitSpace\GameBasicTools\NetworkTool\obj\Debug\NetworkTool.csprojResolveAssemblyReference.cache
+D:\CodeSpace\GitSpace\GameBasicTools\NetworkTool\obj\Debug\NetworkTool.dll
+D:\CodeSpace\GitSpace\GameBasicTools\NetworkTool\obj\Debug\NetworkTool.pdb
