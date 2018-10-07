@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EventTool</name>
+    </assembly>
+    <members>
+        <member name="T:EventTool.MessageHandler">
+            <summary>
+            事件委托
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="T:EventTool.HandlerMsg">
+            <summary>
+            注册/移除事件委托
+            </summary>
+            <param name="name"></param>
+            <param name="msg"></param>
+        </member>
+        <member name="T:EventTool.MessageNotify">
+            <summary>
+            通知事件委托
+            </summary>
+            <param name="name"></param>
+            <param name="args"></param>
+        </member>
+        <member name="T:EventTool.EventController">
+            <summary>
+            事件控制器
+            </summary>
+        </member>
+        <member name="M:EventTool.EventController.#ctor(System.String)">
+            <summary>
+            带参构造
+            </summary>
+            <param name="name"></param>
+        </member>
+        <member name="P:EventTool.EventController.Name">
+            <summary>
+            控制器名
+            </summary>
+        </member>
+        <member name="P:EventTool.EventController.OnRegistMsgEvent">
+            <summary>
+            注册回调
+            </summary>
+        </member>
+        <member name="P:EventTool.EventController.OnRemoveMsgEvent">
+            <summary>
+            移除回调
+            </summary>
+        </member>
+        <member name="P:EventTool.EventController.OnNotifyEvent">
+            <summary>
+            通知回调
+            </summary>
+        </member>
+        <member name="M:EventTool.EventController.RegistEvent(System.String,EventTool.MessageHandler)">
+            <summary>
+            注册事件
+            </summary>
+            <param name="name"> 事件名 </param>
+            <param name="e"> 注册的事件 </param>
+        </member>
+        <member name="M:EventTool.EventController.NotifyEvent(System.String,System.Object[])">
+            <summary>
+            通知事件
+            </summary>
+            <param name="name"> 事件名 </param>
+            <param name="args"> 事件参数 </param>
+        </member>
+        <member name="M:EventTool.EventController.RemoveEvent(System.String,EventTool.MessageHandler)">
+            <summary>
+            移除事件
+            </summary>
+            <param name="name"> 事件名 </param>
+            <param name="eventAction"> 已经注册的事件 </param>
+        </member>
+        <member name="M:EventTool.EventController.OnInit">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="M:EventTool.EventController.OnRemove">
+            <summary>
+            被移除
+            </summary>
+        </member>
+        <member name="M:EventTool.EventController.RemoveAllEvents">
+            <summary>
+            移除所有注册事件
+            </summary>
+        </member>
+        <member name="M:EventTool.EventController.Ctor">
+            <summary>
+            构造初始化
+            </summary>
+        </member>
+        <member name="T:EventTool.EventMgr">
+            <summary>
+            事件管理器
+            </summary>
+        </member>
+        <member name="M:EventTool.EventMgr.RegistEvent(System.String,EventTool.MessageHandler)">
+            <summary>
+            注册事件
+            </summary>
+            <param name="name"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:EventTool.EventMgr.NotifyEvent(System.String,System.Object[])">
+            <summary>
+            通知事件
+            </summary>
+            <param name="name"></param>
+            <param name="args"></param>
+        </member>
+        <member name="M:EventTool.EventMgr.RemoveEvent(System.String,EventTool.MessageHandler)">
+            <summary>
+            移除事件
+            </summary>
+            <param name="name"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:EventTool.EventMgr.AddEventCtrl(EventTool.EventController)">
+            <summary>
+            添加事件控制器
+            </summary>
+            <param name="eCtrl"> 事件控制器 </param>
+        </member>
+        <member name="M:EventTool.EventMgr.RemoveEventCtrl(EventTool.EventController)">
+            <summary>
+            移除事件控制器
+            </summary>
+            <param name="eCtrl"> 事件控制器 </param>
+        </member>
+        <member name="M:EventTool.EventMgr.Init">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="T:EventTool.Interface.IEvent">
+            <summary>
+            事件接口
+            </summary>
+        </member>
+        <member name="M:EventTool.Interface.IEvent.RegistEvent(System.String,EventTool.MessageHandler)">
+            <summary>
+            注册事件
+            </summary>
+            <param name="name"> 事件名 </param>
+            <param name="e"> 注册的事件 </param>
+        </member>
+        <member name="M:EventTool.Interface.IEvent.NotifyEvent(System.String,System.Object[])">
+            <summary>
+            通知事件
+            </summary>
+            <param name="name"> 事件名 </param>
+            <param name="args"> 事件参数 </param>
+        </member>
+        <member name="M:EventTool.Interface.IEvent.RemoveEvent(System.String,EventTool.MessageHandler)">
+            <summary>
+            移除事件
+            </summary>
+            <param name="name"> 事件名 </param>
+            <param name="eventAction"> 已经注册的事件 </param>
+        </member>
+    </members>
+</doc>

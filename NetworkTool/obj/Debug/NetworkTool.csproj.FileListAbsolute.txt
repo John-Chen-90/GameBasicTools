@@ -1,0 +1,6 @@
+D:\CodeSpace\CSharpSpace\GameBasicTool\bin\Network\NetworkTool.XML
+D:\CodeSpace\CSharpSpace\GameBasicTool\bin\Network\NetworkTool.dll
+D:\CodeSpace\CSharpSpace\GameBasicTool\bin\Network\NetworkTool.pdb
+D:\CodeSpace\CSharpSpace\GameBasicTool\NetworkTool\obj\Debug\NetworkTool.dll
+D:\CodeSpace\CSharpSpace\GameBasicTool\NetworkTool\obj\Debug\NetworkTool.pdb
+D:\CodeSpace\CSharpSpace\GameBasicTool\NetworkTool\obj\Debug\NetworkTool.csprojResolveAssemblyReference.cache

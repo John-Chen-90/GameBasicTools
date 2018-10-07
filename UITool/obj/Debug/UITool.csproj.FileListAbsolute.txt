@@ -1,0 +1,5 @@
+D:\CodeSpace\CSharpSpace\GameBasicTool\bin\UI\UITool.XML
+D:\CodeSpace\CSharpSpace\GameBasicTool\bin\UI\UITool.dll
+D:\CodeSpace\CSharpSpace\GameBasicTool\bin\UI\UITool.pdb
+D:\CodeSpace\CSharpSpace\GameBasicTool\UITool\obj\Debug\UITool.dll
+D:\CodeSpace\CSharpSpace\GameBasicTool\UITool\obj\Debug\UITool.pdb

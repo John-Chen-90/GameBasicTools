@@ -1,0 +1,6 @@
+D:\CodeSpace\CSharpSpace\GameBasicTool\EventTool\obj\Debug\EventTool.csprojResolveAssemblyReference.cache
+D:\CodeSpace\CSharpSpace\GameBasicTool\bin\Event\EventTool.XML
+D:\CodeSpace\CSharpSpace\GameBasicTool\bin\Event\EventTool.dll
+D:\CodeSpace\CSharpSpace\GameBasicTool\bin\Event\EventTool.pdb
+D:\CodeSpace\CSharpSpace\GameBasicTool\EventTool\obj\Debug\EventTool.dll
+D:\CodeSpace\CSharpSpace\GameBasicTool\EventTool\obj\Debug\EventTool.pdb

@@ -1,0 +1,5 @@
+D:\CodeSpace\CSharpSpace\GameBasicTool\bin\Script\ScriptTool.XML
+D:\CodeSpace\CSharpSpace\GameBasicTool\bin\Script\ScriptTool.dll
+D:\CodeSpace\CSharpSpace\GameBasicTool\bin\Script\ScriptTool.pdb
+D:\CodeSpace\CSharpSpace\GameBasicTool\ScriptTool\obj\Debug\ScriptTool.dll
+D:\CodeSpace\CSharpSpace\GameBasicTool\ScriptTool\obj\Debug\ScriptTool.pdb

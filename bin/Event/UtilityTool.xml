@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UtilityTool</name>
+    </assembly>
+    <members>
+        <member name="T:UtilityTool.Singleton`1">
+            <summary>
+            单件,只有通过有效的 CreateSingleton才能使用
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="F:UtilityTool.Singleton`1._singleton">
+            <summary>
+            单件实例
+            </summary>
+        </member>
+        <member name="F:UtilityTool.Singleton`1._safelock">
+            <summary>
+            安全锁
+            </summary>
+        </member>
+        <member name="M:UtilityTool.Singleton`1.#ctor">
+            <summary>
+            保护构造
+            </summary>
+        </member>
+        <member name="M:UtilityTool.Singleton`1.Init">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="M:UtilityTool.Singleton`1.Remove">
+            <summary>
+            移除
+            </summary>
+        </member>
+        <member name="M:UtilityTool.Singleton`1.CreateSingleton">
+            <summary>
+            创建单例
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:UtilityTool.Singleton`1.Ins">
+            <summary>
+            单件对象
+            </summary>
+        </member>
+        <member name="T:UtilityTool.BaseSingleton`1">
+            <summary>
+            单件,直接食用
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="T:UtilityTool.SafeSingleton`1">
+            <summary>
+            单件,需要创建才能食用
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="F:UtilityTool.SafeSingleton`1._singleton">
+            <summary>
+            单件实例
+            </summary>
+        </member>
+        <member name="F:UtilityTool.SafeSingleton`1._safelock">
+            <summary>
+            安全锁
+            </summary>
+        </member>
+        <member name="M:UtilityTool.SafeSingleton`1.#ctor">
+            <summary>
+            保护构造
+            </summary>
+        </member>
+        <member name="M:UtilityTool.SafeSingleton`1.CreateSingleton">
+            <summary>
+            创建单例
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:UtilityTool.SafeSingleton`1.Ins">
+            <summary>
+            单件对象
+            </summary>
+        </member>
+        <member name="T:UtilityTool.SampleSingleton`1">
+            <summary>
+            简单单件，通过单次new T(...)来实现，不需要额外调用
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="F:UtilityTool.SampleSingleton`1._singleton">
+            <summary>
+            单件实例
+            </summary>
+        </member>
+        <member name="F:UtilityTool.SampleSingleton`1._safelock">
+            <summary>
+            安全锁
+            </summary>
+        </member>
+        <member name="M:UtilityTool.SampleSingleton`1.#ctor">
+            <summary>
+            保护构造，多次构造抛错
+            </summary>
+        </member>
+        <member name="P:UtilityTool.SampleSingleton`1.Ins">
+            <summary>
+            单件对象
+            </summary>
+        </member>
+    </members>
+</doc>

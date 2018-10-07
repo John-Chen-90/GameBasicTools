@@ -1,0 +1,5 @@
+D:\CodeSpace\CSharpSpace\GameBasicTool\bin\Res\ResTool.XML
+D:\CodeSpace\CSharpSpace\GameBasicTool\bin\Res\ResTool.dll
+D:\CodeSpace\CSharpSpace\GameBasicTool\bin\Res\ResTool.pdb
+D:\CodeSpace\CSharpSpace\GameBasicTool\ResTool\obj\Debug\ResTool.dll
+D:\CodeSpace\CSharpSpace\GameBasicTool\ResTool\obj\Debug\ResTool.pdb

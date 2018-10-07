@@ -1,0 +1,6 @@
+D:\CodeSpace\CSharpSpace\GameBasicTool\bin\Data\DataTool.XML
+D:\CodeSpace\CSharpSpace\GameBasicTool\bin\Data\DataTool.dll
+D:\CodeSpace\CSharpSpace\GameBasicTool\bin\Data\DataTool.pdb
+D:\CodeSpace\CSharpSpace\GameBasicTool\DataTool\obj\Debug\DataTool.dll
+D:\CodeSpace\CSharpSpace\GameBasicTool\DataTool\obj\Debug\DataTool.pdb
+D:\CodeSpace\CSharpSpace\GameBasicTool\DataTool\obj\Debug\DataTool.csprojResolveAssemblyReference.cache

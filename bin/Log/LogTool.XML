@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LogTool</name>
+    </assembly>
+    <members>
+        <member name="T:LogTool.Log">
+            <summary>
+            日志打印
+            </summary>
+        </member>
+        <member name="F:LogTool.Log.IsSaveToClient">
+            <summary>
+            是否保存到客户端
+            </summary>
+        </member>
+        <member name="F:LogTool.Log.IsSendToServer">
+            <summary>
+            是否上传到服务器
+            </summary>
+        </member>
+        <member name="M:LogTool.Log.SetLogDelegate(LogTool.LogDelegate)">
+            <summary>
+            设置打印委托
+            </summary>
+            <param name="logDelegage"></param>
+        </member>
+        <member name="M:LogTool.Log.Info(System.Object)">
+            <summary>
+            info 打印
+            </summary>
+            <param name="logInfo"> 打印内容 </param>
+        </member>
+        <member name="M:LogTool.Log.Warning(System.Object)">
+            <summary>
+            警告信息 打印
+            </summary>
+            <param name="logInfo"></param>
+        </member>
+        <member name="M:LogTool.Log.Error(System.Object)">
+            <summary>
+            错误信息 打印
+            </summary>
+            <param name="logInfo"></param>
+        </member>
+        <member name="M:LogTool.Log.LogPrint(System.Object,LogTool.LogLevel)">
+            <summary>
+            日志打印
+            </summary>
+            <param name="logInfo"></param>
+            <param name="lv"></param>
+        </member>
+        <member name="M:LogTool.Log.SaveLogInfo(System.Object,LogTool.LogLevel)">
+            <summary>
+            保存log 信息
+            </summary>
+            <param name="logInfo"></param>
+            <param name="lv"></param>
+        </member>
+        <member name="M:LogTool.Log.SaveToClient(System.Object,LogTool.LogLevel)">
+            <summary>
+            保存到客户端
+            </summary>
+            <param name="logInfo"></param>
+            <param name="lv"></param>
+        </member>
+        <member name="M:LogTool.Log.SendToServer(System.Object,LogTool.LogLevel)">
+            <summary>
+            发送到服务器
+            </summary>
+            <param name="logInfo"></param>
+            <param name="lv"></param>
+        </member>
+        <member name="F:LogTool.Log._ins">
+            <summary>
+            静态单例
+            </summary>
+        </member>
+        <member name="F:LogTool.Log._logDelegate">
+            <summary>
+            打印委托
+            </summary>
+        </member>
+        <member name="T:LogTool.LogLevel">
+            <summary>
+            日志等级
+            </summary>
+        </member>
+        <member name="F:LogTool.LogLevel.Info">
+            <summary>
+            普通信息
+            </summary>
+        </member>
+        <member name="F:LogTool.LogLevel.Error">
+            <summary>
+            错误信息
+            </summary>
+        </member>
+        <member name="F:LogTool.LogLevel.Warning">
+            <summary>
+            警告信息
+            </summary>
+        </member>
+        <member name="T:LogTool.LogDelegate">
+            <summary>
+            日志打印委托
+            </summary>
+            <param name="arg"> 内容 </param>
+            <param name="lv"> 打印级别 </param>
+        </member>
+    </members>
+</doc>
